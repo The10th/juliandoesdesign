@@ -130,27 +130,15 @@
           <section class="c-section">
             <div class="c-section__content">
               <h2 class="c-section__header">
-                Task
+                Initial discovery
               </h2>
               <p>
-                Lighthouse founding engineer, Jay, charged me with the amazingly fun task (not being sarcastic here) of exploring the Lighthouse product, designing solutions around any perceived UX issues, and
-                <b>BULDING THE SOLUTIONS</b> in less than 4 hours...
-                <b class="txtColor--grey">#letsDoThis</b>
-              </p>
-            </div>
-          </section>
-          <section class="c-section">
-            <div class="c-section__content">
-              <h2 class="c-section__header">
-                Initial challenges
-              </h2>
-              <p>
-                Working with Jay (founding engineer) & Jason (founder and CEO) during my interview, I discovered, at a high-level, some common challenges Lighthouse had. Coupled with a need for some visual love, Lighthouse users needed to:
+                Users rely on Lighthouse to manage 1 on 1 meetings with their team members, and the core of Lighthouse is built on these key experiences:
               </p>
               <ol class="c-list c-list-o">
-                <li>be able to navigate the app quickly and easily</li>
-                <li>easily access profile & app settings</li>
-                <li>see relevant information and tasks at a glance</li>
+                <li>users need to be able to navigate their 1 on 1s with their teams easily</li>
+                <li>weekly action items need to be surfaced without being distracting</li>
+                <li>users want to edit their meeting notes securely and easily</li>
               </ol>
             </div>
             <div class="c-section__content">
@@ -163,18 +151,18 @@
           <section class="c-section">
             <div class="c-section__content">
               <h2 class="c-section__header">
-                Wireframing & implementation
+                Designing & implementation
               </h2>
               <p>
-                After exploring Lighthouse for a few minutes, and getting used to the workflow, I chose one specific page to work on: the user Dashboard. Following some light sketching and wireframing, I made some high(ish) fidelity mocks to use as a guide for the development portion of my interview.
-                I decided to focus on a few visual tweaks:
+                After some core issues were identified, I began wireframing some basic workflows, layouts, and UI tweaks.
+                I decided to focus on visual tweaks to enhance experience and give the UI a
+                <i>slightly</i> more modern touch:
               </p>
               <ul class="c-list c-list-u">
-                <li>lighten up the color palette a bit to resolve any distractions on the page</li>
-                <li>
-                  tighten up blocks of text <i>wider</i> than 600px for readability
-               </li>
-                <li>refresh the existing components to be more *modern</li>
+                <li>lighten up the color palette to resolve any distractions on the page</li>
+                <li>modify the typography to help the readability of meeting notes and agenda items</li>
+                <li>clean up font declarations to resolve hierarchy issues</li>
+                <li>refresh the text-editing components to be more *modern</li>
               </ul>
             </div>
             <div class="c-section__content">
@@ -190,7 +178,7 @@
                 Post interview
               </h2>
               <p>
-                I was serendipitously given an offer on my birthday (yep, I was offered a job on my birthday), and roughly 2 weeks later my initial redesign of some core components, color palette, and app layout deployed.
+                In late September I was given an offer to join the Lighthouse team, which happened to land on my birthday, and roughly 2 weeks later the redesign I worked on deployed. The redesign introduced tighter headers, a lighter overall theme, and more consistent typography.
               </p>
             </div>
             <div class="c-section__content">
@@ -206,17 +194,32 @@
                   <img class="img img--noshadow" src="web/images/lighthouse__ui/interview_to_final.png" alt="everything">
                 </div>
             </div>
+          </section>
+
+          <section class="c-section">
             <div class="c-section__content">
               <h2 class="c-section__header">
                 Results and metrics
               </h2>
+                <p>
+                Over the course of 6 months I launched 2 redesigns for Lighthouse: the first when I initially onboarded, and the second 6 months later which revamped the entire UI and overall UX - consisting of:
+              </p>
+              <ul class="c-list c-list-u">
+                <li>a typeface change making it easier to read and take extensive notes (from Montserrat to Open Sans)</li>
+                <li>a refreshed color palette that moved away from heavy greens</li>
+                <li>more cohesive IA, helping users access their information easily</li>
+              </ul>
               <p>
-                Over the course of 6 months Lighthouse had gone through 2 redesigns: one when I onboarded and made slight and subtle enhancements, and another 6 months later that revamped the whole UI and overall UX. Almost immediately Lighthouse received positive feedback once the overall redesign was released. Current users were delighted by the softer color palette and refreshed UI components, and the churn rate decreased from 6.45% to 2.75%!
+                The redesign was very well received by users, and resulted in a decrease in churn, going from
+                <b>6.45% to 2.75%</b>!
               </p>
             </div>
+            <div class="c-section__content">
+                <div class="c-section__img c-section__img-unshadowed">
+                  <img class="img img--noshadow" src="web/images/lighthouse__ui/redesign_metrics.png" alt="redesign metrics">
+                </div>
+            </div>
           </section>
-
-
         </div>
       </div>
     </div>
@@ -230,8 +233,8 @@
           <small>full feature life-cycle design </small>
           Manager Score
           <small>
-            <p>Manager Score was an observation from Lighthouse CEO, Jason Evanish, that leaders needed to be given proper insights into their performance that is candid, properly analyzed, and actionable.</p>
-            <p>In 2017, that observation became the Lighthouse manager performance companion app.</p>
+            <p>An app that allows leaders to be given proper insights and analytics into their performance, by their team members.</p>
+            <p>Insights are candid, properly analyzed, and most importantly <i>actionable</i>.</p>
           </small>
         </h1>
         <div class="c-panel c-panel--mini c-panel--magic c-panel--magicLeft">
@@ -240,7 +243,7 @@
             <dd class="col-sm-9">UX Designer | Font-end Engineer</dd>
 
             <dt class="col-sm-3">Team</dt>
-            <dd class="col-sm-9">3</dd>
+            <dd class="col-sm-9">3 people</dd>
 
             <dt class="col-sm-3">When</dt>
             <dd class="col-sm-9">June 2017</dd>
@@ -262,38 +265,41 @@
                 Task
               </h2>
               <p>
-                Manager Score was to be a stand alone application, able to be utilized independent of Lighthouse. Managers and leaders could utilize the tool to receive anonymous feedback from their team members - with metrics and analysis on identifying areas they could improve upon.
-                Here, I was tasked with designing and building:
+                Design, build, and iterate:
               </p>
               <ul class="c-list c-list-u">
                 <li>Marketing pages and assets (iconography, illustrations, etc...)</li>
                 <li>Signup and onboarding flows</li>
-                <li>Survey taking components</li>
+                <li>Survey UI components</li>
                 <li>Data and analytics views</li>
                 <li>Data Exports</li>
               </ul>
+            </div>
+            <div class="c-section__content">
+                <div class="c-section__img c-section__img-unshadowed">
+                  <img class="img c-card-img--noshadow img-doodle" src="web/images/lighthouse__ui/mss_folder_doodle.svg" alt="manager score folder illustration">
+                </div>
             </div>
           </section>
           <section class="c-section">
             <div class="c-section__content">
               <h2 class="c-section__header">
-                Assumptions
+                Assumption
               </h2>
               <p>
-                To accurately provide the best experience and UI possible for managers in need of metrics and data on their performance that
-                is provided
-                <i>by their team members</i>, we needed to make a few assumptions to ideate on.
+                Managers need actionable insights from their team and team members need to answers survey questions about their manager's performance.
+                Given this assumption, a basic workflow was ideated on:
               </p>
               <ol class="c-list c-list-o">
-                <li>managers need to assign team members/direct reports to review them</li>
-                <li>team members have to be assured that the survey they'll be taking is anonymous, increasing liklihood of candid responses</li>
+                <li>managers need to request feedback from their team members</li>
+                <li>team members have to be confident that survey answers will remain anonymous</li>
                 <li>surveys need to be accessed easily by team members</li>
-                <li>all analyzed data need to be actionable to provide value to the manager</li>
+                <li>all collected data need to have both analytics and media content in order to provide value to the manager</li>
               </ol>
             </div>
             <div class="c-section__content">
-                <div class="c-section__img">
-                  <img class="img" src="web/images/lighthouse__ui/mss_layout_iterating.png" alt="lighthouse ui interview">
+                <div class="c-section__img c-section__img-unshadowed">
+                  <img class="img u-boxshadow--none" src="web/images/lighthouse__ui/mss_landing.png" alt="manager score landing page">
                 </div>
             </div>
           </section>
@@ -304,7 +310,7 @@
                 Challenges
               </h2>
               <p>
-                Given the sensitive nature of completely candid surveys on a manager provided by their team members, there were a few challenges that were discovered during customer development research. A few FUDS (fears, uncertainties, doubts) needed to be addressed for both managers and their team members if Manager Score was to be successful.
+                Completely candid surveys on a manager's performance posed a few challenges that were uncovered during customer development research. Some common FUDS (fears, uncertainties, doubts) that surfaced were:
               </p>
               <ul class="c-list c-list-u">
                 <li>managers need to trust the platform with their team memeber's emails (to provide the Manager Score survey invitation)</li>
@@ -314,7 +320,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img img--noshadow" src="web/images/lighthouse__ui/mss_folder_doodle.svg" alt="manager score folder illustration">
+                  <img class="img" src="web/images/lighthouse__ui/mss_layout_iterating.png" alt="manager score layout testing">
                 </div>
             </div>
           </section>
@@ -322,18 +328,16 @@
           <section class="c-section">
             <div class="c-section__content">
               <h2 class="c-section__header">
-                Testing & implementation
+                User testing
               </h2>
               <p>
-                All assumptions and features need validation prior to any active commitment to a project - and that is why we utilized a wonderful tactic that helped guide the design and development of Manager Score:
-                <i>we beta tested with a current customer</i>
-              </p>
+                To validate our designs and assumptions, prior to active project development, we enlisted the help of one of Lighthouse's long-time users to alpha test the product.
               <p>
-                Our findings from an initial (and very manual) beta run gave us terrific insights on how managers & their team wanted to interact with the app. We even built a feature into Manager Score from our findings from the test run.
+                Findings from initial (and very manual) tests provided terrific insights on how managers & their teams wanted to interact with the product. Unplanned features were even built, resulting directly from UX research.
               </p>
             </div>
             <div class="c-section__content">
-                <div class="c-section__img c-section__img-unshadowed">
+                <div class="c-section__img">
                   <img class="img img--noshadow" src="web/images/lighthouse__ui/mss_invite.svg" alt="interview work">
                 </div>
             </div>
@@ -341,8 +345,8 @@
 
           <section class="c-section has-banner">
             <div class="c-section__banner">
-                <div class="c-section__img">
-                  <img class="img img--noshadow" src="web/images/lighthouse__ui/mss_landing.png" alt="manager score landing page">
+                <div class="c-section__img" style="border-radius: 5px;">
+                  <img class="img img--noshadow" src="web/images/lighthouse__ui/mss_final.svg" alt="manager score landing page">
                 </div>
             </div>
             <div class="c-section__content">
@@ -350,8 +354,8 @@
                 Results
               </h2>
               <p>
-                Manager Score was well received at first launch. A few iterations on the onboarding flow and metrics analysis were needed to fine tune the presentation of data, but overall successful. From a chain of fitness studios, to tech consulting firms, and Silicon Valley startups - managers, leaders, and teams of spanning a litany professions used Manager Score
-                to gather insights on management performance.
+                Manager Score was well received and kept gaining momentum. From a chain of fitness studios, to tech consulting firms, and Silicon Valley startups - managers, leaders, and teams spanning many professions use Manager Score
+                to gather insights on management performance. Some have even run quarterly scores to track improvement!
               </p>
             </div>
           </section>
@@ -371,7 +375,9 @@
           <small>directing leaders</small>
           Skip-level Meetings
           <small>
-            Lighthouse grew with the features and enhancements the team had made through to the end of 2016. In 2017, we wanted to introduce a type of 1 on 1 meeting that helps c-level leaders (directors & executives) a way to grow & retain their employees.
+            Building on top of Lighthouse's 1 on 1 meeting platform:
+            <i>managers meet with their team members</i> : <i>team members meet with their managers</i>,
+            introduce a feature enabling executives, directors, VPs, and managers <i>of</i> managers to meet with team members.
           </small>
         </h1>
         <div class="c-panel c-panel--mini c-panel--magic c-panel--magicLeft">
@@ -391,7 +397,7 @@
         </dl>
         </div>
         <div class="c-modal__doodle">
-          <img src="web/images/lighthouse__ui/skip_lvls.svg" alt="Skip Level UI">
+          <img src="web/images/lighthouse__ui/skip_lvls.svg" alt="Skip Level UI" style="max-width: 600px;">
         </div>
       </div>
       <div class="c-modal__body">
@@ -399,28 +405,15 @@
           <section class="c-section">
             <div class="c-section__content">
               <h2 class="c-section__header">
-                Task
+                Initial discovery
               </h2>
               <p>
-                Building on top of the current platform's 1 on 1 meeting paradigm:
-                <i>managers meet with their team members</i> : <i>team members meet with their managers</i>
-                introduce a feature enabling c-level leaders to meet with team members 2 levels removed.
-              </p>
-            </div>
-          </section>
-          <section class="c-section">
-            <div class="c-section__content">
-              <h2 class="c-section__header">
-                Initial challenges
-              </h2>
-              <p>
-                In 2016 a fair amount of passive and active feedback requesting a "skip-levelesque" feature was received at Lighthouse.
-                To obtain robust & detailed insights into the Skip-level needs of our users, Lighthouse dove deep into the 2016 Q4 Product Survey, and validated what had to be designed & built in Q1 2017.
+                We dove deep into Lighthouse's 2016 Q4 Product Survey in order to understand what had to be designed & built for Q1 2017 and validate base assumptions of what skip-level meetings would work:
               </p>
               <ol class="c-list c-list-o">
-                <li>C-levels need to meet with employees of their reporting managers </li>
-                <li>Meetings, both 1 on 1s and Skip Levels need to be very easily navigable</li>
-                <li>All Meeting notes, items, and agendas from resulting Skip Level 1 on 1s need to be surfaced in regular 1 on 1s</li>
+                <li>users need to meet with employees of their reporting managers regularly</li>
+                <li>skip-level 1 on 1s need to have the same meeting navigation UI</li>
+                <li>all meeting notes, action items, and agendas from resulting skip-level meetings need to be surfaced in regular 1 on 1s</li>
               </ol>
             </div>
             <div class="c-section__content">
@@ -433,23 +426,20 @@
           <section class="c-section">
             <div class="c-section__content">
               <h2 class="c-section__header">
-                Constraints and challenges
+                Challenges
               </h2>
               <p>
-                After metrics dissemination & initial expereince storyboarding we became aware that Skip Levels can potentially introduce disconnected and jarring expereinces for our users.
-                While delivering a metrics proven positive feature is important and non-existent on the market, we did not want to provide users jagged experiences, possible leading to churn.
+                Reading survey answers and running UX interviews with current Lighthouse customers surfaced quite a few insights and possible challenges in the design process:
               </p>
               <ul class="c-list c-list-u">
-                <li>Provide views where c-levels could maintain current 1 on 1s with their managers while contextually providing access to their Skip Levels</li>
-                <li>
-                  Ensure full feature pairity with the current 1 on 1 paradigm in Skip Levels & extend the behavior of assigned meeting items
-               </li>
-                <li>Provide proper controls to the c-level user, empowering them to control all types of 1 on 1s seamlessly</li>
+                <li>directors, vps, and other managers of managers have varying frequencies of 1 on 1 meetings - most are not consistent </li>
+                <li>privacy and information integrity is exceptionally important, and need to be addressed for users gain confidence in the product</li>
+                <li>the skip-level solution needs to be easily navigable between different meeting types, and allow users to control meeting items & frequencies without breaking the context of their meeting</li>
               </ul>
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img" src="web/images/lighthouse__ui/designing_skips.png" alt="interview work">
+                  <img class="img u-boxshadow--none" src="web/images/lighthouse__ui/designing_skips.svg" alt="interview work">
                 </div>
             </div>
           </section>
@@ -465,9 +455,17 @@
                 Results and metrics
               </h2>
               <p>
-                Skip-levels launched early April of 2017 and the reception was resoundingly positive. We overcame the UX & UI hurdles for a potentially complex feature, provided our c-levels with everything they needed, and enhanced how they track meeting items between their different 1 on 1s.
-                Current c-level users of the platform we delighted, and Lighthouse increased in company-wide monthly subscriptions expansions by
-                <b>47.13%</b> after launching Skip-levels
+                After addressing some key concerns that Lighthouse's users had about using Skip-levels, the feature launched early April of 2017 and the reception was resoundingly positive.
+                Overcoming hurdles by:
+              </p>
+              <ul>
+                <li>providing language and iconography that communicates to the user that meeting notes are fully secure and private</li>
+                <li>designing the feature in a way that contextually preserves the content of both regular and skip-level meetings</li>
+                <li>actively listening, testing, and iterating on solutions with the users and their workflow</li>
+              </ul>
+              <p>
+                Directors, vps, and managers of managers using the platform were delighted, and Lighthouse increased in company-wide monthly expansions by
+                <b>47.13%</b>!
               </p>
             </div>
           </section>
