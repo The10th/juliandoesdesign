@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../web/stylesheets/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../web/stylesheets/normalize.css">
-    <link rel="stylesheet" href="../web/stylesheets/ui/ionicons.min.css">
-    <link rel="stylesheet" href="../web/stylesheets/ui/style.css">
+    <link rel="stylesheet" href="../stylesheets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../stylesheets/normalize.css">
+    <link rel="stylesheet" href="../stylesheets/ui/ionicons.min.css">
+    <link rel="stylesheet" href="../stylesheets/ui/style.css">
+
     <link rel="apple-touch-icon" sizes="57x57" href="../../apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../../apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../../apple-icon-72x72.png">
@@ -20,74 +21,92 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
-    <title>Heap + Julian</title>
+
+    <title>Julian + Heap</title>
   </head>
   <body class="bgColor--grey-light">
     <div class="container-fluid">
         <div class="row">
-          <div class="megatron megatron-heap">
-              <div class="megatron__left">
-                <h1 class="megatron__header c-header c-header--sans is-heap">
-                  Why hello, Heap
+            <div class="megatron megatron-heap">
+              <div class="megatron__navHeader">
+                  <a class="brand-logo" href="http://www.juliandoesui.com">
+                    <img class="brand-img" src="../images/iso_logo_cmb.svg" alt="J Isometric Logo">
+                  </a>
+                  <ul class="c-list c-list--link">
+                    <li>
+                      <a href="https://dribbble.com/bountea_hunter" class="ion ion-social-dribbble" target="_blank"></a>
+                    </li>
+                    <li>
+                      <a href="https://codepen.io/tehCaesar" class="ion ion-social-codepen" target="_blank"></a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/julianhvnguyen" class="ion ion-social-linkedin" target="_blank"></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="megatron__content">
+                  <div class="megatron__left">
+                    <h1 class="megatron__header c-header c-header--sans is-heap">
+                      Hi Heap,
 
-                  <span class="test">
-                    Nice to meet you, I'm Julian and I'd love
-                    <br>
-                    to design some awesome things together
-                  </span>
-                </h1>
-              </div>
-              <a href="http://www.juliandoesui.com" class="megatron__right has-logo">
-                <svg class="megatron__logo" width="344px" height="399px" viewBox="0 0 344 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <title>heap__nested</title>
-                    <defs>
-                        <radialGradient cx="51.1008344%" cy="50%" fx="51.1008344%" fy="50%" r="55.7859283%" gradientTransform="translate(0.511008,0.500000),scale(1.000000,0.855346),rotate(90.000000),scale(1.000000,1.066767),translate(-0.511008,-0.500000)" id="radialGradient-1">
-                            <stop stop-color="#6C38A0" offset="0%"></stop>
-                            <stop stop-color="#44146F" offset="100%"></stop>
-                        </radialGradient>
-                        <polygon id="path-2" points="0 97.2883663 164.798742 0 329.597484 97.2883663 329.597484 288.049869 164.798742 385.338235 0 288.049869"></polygon>
-                        <filter x="-3.0%" y="-2.1%" width="107.9%" height="106.7%" filterUnits="objectBoundingBox" id="filter-3">
-                            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-                            <feOffset dx="3" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-                            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-                            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0714447464 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-                        </filter>
-                        <polygon id="path-4" points="136 31 136 162 247 97"></polygon>
-                        <filter x="-10.4%" y="-7.3%" width="120.7%" height="117.6%" filterUnits="objectBoundingBox" id="filter-5">
-                            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-                            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-                            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-                            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-                            <feColorMatrix values="0 0 0 0 0.215228748   0 0 0 0 0.0439808943   0 0 0 0 0.365699405  0 0 0 0.2284024 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-                        </filter>
-                        <linearGradient x1="80.892%" y1="26.7614359%" x2="20.232%" y2="73.4350464%" id="linearGradient-6">
-                            <stop stop-color="#DD4362" offset="0%"></stop>
-                            <stop stop-color="#EE633F" offset="56.715%"></stop>
-                            <stop stop-color="#FB7C24" offset="100%"></stop>
-                        </linearGradient>
-                    </defs>
-                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Artboard-15" transform="translate(-880.000000, -286.000000)">
-                            <g id="heap__nested" transform="translate(884.000000, 288.000000)">
-                                <g id="hex__outer">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
-                                    <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
-                                </g>
-                                <g id="logo__proper" transform="translate(29.000000, 34.000000)">
-                                    <g id="pie__shadow">
-                                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
-                                        <use fill-opacity="0" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                      <span class="test">
+                        I'm Julian and I'd love
+                        to design awesome things with you!
+                        Have a look at my projects below, and let's chat soon...
+                      </span>
+                    </h1>
+                  </div>
+                  <a href="http://www.juliandoesui.com" class="megatron__right has-logo">
+                    <svg class="megatron__logo" width="344px" height="399px" viewBox="0 0 344 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>heap__nested</title>
+                        <defs>
+                            <radialGradient cx="51.1008344%" cy="50%" fx="51.1008344%" fy="50%" r="55.7859283%" gradientTransform="translate(0.511008,0.500000),scale(1.000000,0.855346),rotate(90.000000),scale(1.000000,1.066767),translate(-0.511008,-0.500000)" id="radialGradient-1">
+                                <stop stop-color="#6C38A0" offset="0%"></stop>
+                                <stop stop-color="#44146F" offset="100%"></stop>
+                            </radialGradient>
+                            <polygon id="path-2" points="0 97.2883663 164.798742 0 329.597484 97.2883663 329.597484 288.049869 164.798742 385.338235 0 288.049869"></polygon>
+                            <filter x="-3.0%" y="-2.1%" width="107.9%" height="106.7%" filterUnits="objectBoundingBox" id="filter-3">
+                                <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+                                <feOffset dx="3" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0714447464 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                            </filter>
+                            <polygon id="path-4" points="136 31 136 162 247 97"></polygon>
+                            <filter x="-10.4%" y="-7.3%" width="120.7%" height="117.6%" filterUnits="objectBoundingBox" id="filter-5">
+                                <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+                                <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+                                <feColorMatrix values="0 0 0 0 0.215228748   0 0 0 0 0.0439808943   0 0 0 0 0.365699405  0 0 0 0.2284024 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                            </filter>
+                            <linearGradient x1="80.892%" y1="26.7614359%" x2="20.232%" y2="73.4350464%" id="linearGradient-6">
+                                <stop stop-color="#DD4362" offset="0%"></stop>
+                                <stop stop-color="#EE633F" offset="56.715%"></stop>
+                                <stop stop-color="#FB7C24" offset="100%"></stop>
+                            </linearGradient>
+                        </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Artboard-15" transform="translate(-880.000000, -286.000000)">
+                                <g id="heap__nested" transform="translate(884.000000, 288.000000)">
+                                    <g id="hex__outer">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                        <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
                                     </g>
-                                    <path d="M0,80.2871287 L136,0 L272,80.2871287 L272,237.712871 L136,318 L0,237.712871 L0,80.2871287 Z M25.3023256,96.8357228 L25.3023256,224.331683 L136,289.663366 L246.697674,224.331683 L246.697674,96.8357228 L136,162.148515 L136,31.4851485 L25.3023256,96.8357228 Z" id="heap-hex" fill="url(#linearGradient-6)"></path>
+                                    <g id="logo__proper" transform="translate(29.000000, 34.000000)">
+                                        <g id="pie__shadow">
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                            <use fill-opacity="0" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                        </g>
+                                        <path d="M0,80.2871287 L136,0 L272,80.2871287 L272,237.712871 L136,318 L0,237.712871 L0,80.2871287 Z M25.3023256,96.8357228 L25.3023256,224.331683 L136,289.663366 L246.697674,224.331683 L246.697674,96.8357228 L136,162.148515 L136,31.4851485 L25.3023256,96.8357228 Z" id="heap-hex" fill="url(#linearGradient-6)"></path>
+                                    </g>
                                 </g>
                             </g>
                         </g>
-                    </g>
-                </svg>
-              </a>
-          </div>
-
+                    </svg>
+                  </a>
+                </div>
+            </div>
 
 
             <div class="megatron megatron--section">
@@ -96,7 +115,7 @@
                   <div class="card-body">
                     <div class="card-section" data-action="show-modal" data-path="lighthouseUI">
                       <div class="card-img-o">
-                        <img class="card-img" src="../web/images/lighthouse__ui/lh_layered_ui.svg" alt="Lighouse pre-Julian">
+                        <img class="card-img" src="../images/lighthouse__ui/lh_layered_ui.svg" alt="Lighouse pre-Julian">
                       </div>
                       <p class="card-descriptor">
                         lighthouse ui
@@ -108,7 +127,7 @@
                     </div>
                     <div class="card-section" data-action="show-modal" data-path="skipLvl">
                       <div class="card-img-o">
-                        <img class="card-img" src="../web/images/lighthouse__ui/lh_skip_lvl.svg" alt="skip level nav">
+                        <img class="card-img" src="../images/lighthouse__ui/lh_skip_lvl.svg" alt="skip level nav">
                       </div>
                       <p class="card-descriptor">
                         skip-level meetings
@@ -120,7 +139,7 @@
                     </div>
                     <div class="card-section" data-action="show-modal" data-path="managerScore">
                       <div class="card-img-o">
-                        <img class="card-img" src="../web/images/lighthouse__ui/mss_ui.png" alt="Lighouse pre-Julian">
+                        <img class="card-img" src="../images/lighthouse__ui/mss_ui.png" alt="Lighouse pre-Julian">
                       </div>
                       <p class="card-descriptor">
                         manager score
@@ -131,7 +150,7 @@
                     </div>
                     <div class="card-section in-progress" data-action="show-modal" data-path="userSignup">
                       <div class="card-img-o">
-                        <img class="card-img" src="../web/images/lighthouse__ui/project_empty.png" alt="empty project">
+                        <img class="card-img" src="../images/lighthouse__ui/project_empty.png" alt="empty project">
                       </div>
                       <p class="card-descriptor">
                         coming soon
@@ -177,7 +196,7 @@
         </dl>
         </div>
         <div class="c-modal__doodle">
-          <img src="../web/images/lighthouse__ui/lh_v1_laptop.svg" alt="Lighthouse UI">
+          <img src="../images/lighthouse__ui/lh_v1_laptop.svg" alt="Lighthouse UI">
         </div>
       </div>
       <div class="c-modal__body">
@@ -198,7 +217,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img">
-                  <img class="img" src="../web/images/lighthouse__ui/interview_init.png" alt="lighthouse ui interview">
+                  <img class="img" src="../images/lighthouse__ui/interview_init.png" alt="lighthouse ui interview">
                 </div>
             </div>
           </section>
@@ -222,7 +241,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img img--noshadow" src="../web/images/lighthouse__ui/interview_do.png" alt="interview work">
+                  <img class="img img--noshadow" src="../images/lighthouse__ui/interview_do.png" alt="interview work">
                 </div>
             </div>
           </section>
@@ -238,7 +257,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img img--noshadow" src="../web/images/lighthouse__ui/interview_post.png" alt="interview work">
+                  <img class="img img--noshadow" src="../images/lighthouse__ui/interview_post.png" alt="interview work">
                 </div>
             </div>
           </section>
@@ -246,7 +265,7 @@
           <section class="c-section has-banner">
             <div class="c-section__banner">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img img--noshadow" src="../web/images/lighthouse__ui/interview_to_final.png" alt="everything">
+                  <img class="img img--noshadow" src="../images/lighthouse__ui/interview_to_final.png" alt="everything">
                 </div>
             </div>
           </section>
@@ -271,7 +290,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img img--noshadow" src="../web/images/lighthouse__ui/redesign_metrics.png" alt="redesign metrics">
+                  <img class="img img--noshadow" src="../images/lighthouse__ui/redesign_metrics.png" alt="redesign metrics">
                 </div>
             </div>
           </section>
@@ -309,7 +328,7 @@
         </dl>
         </div>
         <div class="c-modal__doodle">
-          <img src="../web/images/lighthouse__ui/manager_score_sbs.svg" alt="Manager Score Shots">
+          <img src="../images/lighthouse__ui/manager_score_sbs.svg" alt="Manager Score Shots">
         </div>
       </div>
       <div class="c-modal__body">
@@ -332,7 +351,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img c-card-img--noshadow img-doodle" src="../web/images/lighthouse__ui/mss_folder_doodle.svg" alt="manager score folder illustration">
+                  <img class="img c-card-img--noshadow img-doodle" src="../images/lighthouse__ui/mss_folder_doodle.svg" alt="manager score folder illustration">
                 </div>
             </div>
           </section>
@@ -354,7 +373,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img u-boxshadow--none" src="../web/images/lighthouse__ui/mss_landing.png" alt="manager score landing page">
+                  <img class="img u-boxshadow--none" src="../images/lighthouse__ui/mss_landing.png" alt="manager score landing page">
                 </div>
             </div>
           </section>
@@ -375,7 +394,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img" src="../web/images/lighthouse__ui/mss_layout_iterating.png" alt="manager score layout testing">
+                  <img class="img" src="../images/lighthouse__ui/mss_layout_iterating.png" alt="manager score layout testing">
                 </div>
             </div>
           </section>
@@ -393,7 +412,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img">
-                  <img class="img img--noshadow" src="../web/images/lighthouse__ui/mss_invite.svg" alt="interview work">
+                  <img class="img img--noshadow" src="../images/lighthouse__ui/mss_invite.svg" alt="interview work">
                 </div>
             </div>
           </section>
@@ -401,7 +420,7 @@
           <section class="c-section has-banner">
             <div class="c-section__banner">
                 <div class="c-section__img" style="border-radius: 5px;">
-                  <img class="img img--noshadow" src="../web/images/lighthouse__ui/mss_final.svg" alt="manager score landing page">
+                  <img class="img img--noshadow" src="../images/lighthouse__ui/mss_final.svg" alt="manager score landing page">
                 </div>
             </div>
             <div class="c-section__content">
@@ -452,7 +471,7 @@
         </dl>
         </div>
         <div class="c-modal__doodle">
-          <img src="../web/images/lighthouse__ui/skip_lvls.svg" alt="Skip Level UI", style="max-width: 600px;">
+          <img src="../images/lighthouse__ui/skip_lvls.svg" alt="Skip Level UI" style="max-width: 600px;">
         </div>
       </div>
       <div class="c-modal__body">
@@ -473,7 +492,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img">
-                  <img class="u-boxshadow--none img" src="../web/images/lighthouse__ui/skip_structure.svg" alt="Skip Level Structure">
+                  <img class="u-boxshadow--none img" src="../images/lighthouse__ui/skip_structure.svg" alt="Skip Level Structure">
                 </div>
             </div>
           </section>
@@ -494,7 +513,7 @@
             </div>
             <div class="c-section__content">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img u-boxshadow--none" src="../web/images/lighthouse__ui/designing_skips.svg" alt="interview work">
+                  <img class="img u-boxshadow--none" src="../images/lighthouse__ui/designing_skips.svg" alt="interview work">
                 </div>
             </div>
           </section>
@@ -502,7 +521,7 @@
           <section class="c-section has-banner">
             <div class="c-section__banner">
                 <div class="c-section__img c-section__img-unshadowed">
-                  <img class="img img--noshadow" src="../web/images/lighthouse__ui/skip_lvl_shot.png" alt="everything">
+                  <img class="img img--noshadow" src="../images/lighthouse__ui/skip_lvl_shot.png" alt="everything">
                 </div>
             </div>
             <div class="c-section__content">
@@ -528,7 +547,7 @@
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="../web/javascript/jquery-ui.min.js"></script>
-    <script src="../web/javascript/modal.js"></script>
+    <script src="../javascript/jquery-ui.min.js"></script>
+    <script src="../javascript/modal.js"></script>
   </body>
 </html>
