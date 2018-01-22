@@ -1,6 +1,7 @@
 s3cmd -P put *.html s3://www.juliandoesui.com/
 s3cmd -P put *.png s3://www.juliandoesui.com/
 s3cmd -P put *.ico s3://www.juliandoesui.com/
+s3cmd -P put apptimize.html s3://www.juliandoesui.com/apptimize/index.html
 s3cmd -P put cmb.html s3://www.juliandoesui.com/cmb/index.html
 s3cmd -P put cleary.html s3://www.juliandoesui.com/cleary/index.html
 s3cmd -P put better.html s3://www.juliandoesui.com/better/index.html
