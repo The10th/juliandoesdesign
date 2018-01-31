@@ -7,6 +7,7 @@ s3cmd -P put cleary.html s3://www.juliandoesui.com/cleary/index.html
 s3cmd -P put civicowl.html s3://www.juliandoesui.com/civicowl/index.html
 s3cmd -P put better.html s3://www.juliandoesui.com/better/index.html
 s3cmd -P put hearsay.html s3://www.juliandoesui.com/hearsay/index.html
+s3cmd -P put hinge.html s3://www.juliandoesui.com/hinge/index.html
 s3cmd -P put flexport.html s3://www.juliandoesui.com/flexport/index.html
 s3cmd -P put remind.html s3://www.juliandoesui.com/remind/index.html
 s3cmd -P put bluebottlecoffee.html s3://www.juliandoesui.com/bluebottle/index.html
