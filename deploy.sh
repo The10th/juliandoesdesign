@@ -2,6 +2,7 @@ s3cmd -P put *.html s3://www.juliandoesui.com/
 s3cmd -P put *.png s3://www.juliandoesui.com/
 s3cmd -P put *.ico s3://www.juliandoesui.com/
 s3cmd -P put preview/apptimize.html s3://www.juliandoesui.com/apptimize/index.html
+s3cmd -P put preview/autodesk.html s3://www.juliandoesui.com/autodesk/index.html
 s3cmd -P put preview/cmb.html s3://www.juliandoesui.com/cmb/index.html
 s3cmd -P put preview/civicowl.html s3://www.juliandoesui.com/civicowl/index.html
 s3cmd -P put preview/creativemarket.html s3://www.juliandoesui.com/creativemarket/index.html
