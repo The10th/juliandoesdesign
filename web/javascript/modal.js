@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
   var console_welcome = 'Oh, why hello there!\r\n\r\n';
@@ -24,6 +25,7 @@ $(document).ready(function(){
   var console_factoid = facts[Math.floor(Math.random()*facts.length)];
 
   console.info('%c'+ console_welcome +'' + '%c'+ console_message +'' + '%c'+ console_factoid +'', welcome_style , message_style , info_style);
+
 });
 
 $(document).delegate('[data-action=show-modal]', 'click', function(event){
