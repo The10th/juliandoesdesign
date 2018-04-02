@@ -11,6 +11,6 @@ s3cmd -P put preview/fountain.html s3://www.juliandoesui.com/fountain/index.html
 s3cmd -P put preview/quip.html s3://www.juliandoesui.com/quip/index.html
 s3cmd -P put preview/stackshare.html s3://www.juliandoesui.com/stackshare/index.html
 s3cmd -P put preview/taskrabbit.html s3://www.juliandoesui.com/taskrabbit/index.html
-s3cmd -P put preview/symantec.html s3://www.juliandoesui.com/symantec/index.html
+s3cmd -P put preview/wonderfullife.html s3://www.juliandoesui.com/wonderfullife/index.html
 s3cmd -P put preview/wonder.html s3://www.juliandoesui.com/wonder/index.html
 s3cmd -P --recursive put web s3://www.juliandoesui.com/
